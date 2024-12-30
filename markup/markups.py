@@ -75,25 +75,3 @@ reset_btn = KeyboardButton("❌ Сбросить")
 
 # adding submit or reset all info about new game
 sub_res_markup = ReplyKeyboardMarkup(resize_keyboard = True, row_width = 2).add(sub_add_btn, reset_btn, menu_btn)
-
-# buttons
-next_more = InlineKeyboardButton("Продолжить!", callback_data="next")
-next_step_2 = InlineKeyboardButton("Продолжить!", callback_data="next_2")
-next_step_3 = InlineKeyboardButton("Идем дальше!", callback_data="next_3")
-next_step_4 = InlineKeyboardButton('Продолжаем!', callback_data="next_4")
-next_step_5 = InlineKeyboardButton('Давай дальше!', callback_data="next_5")
-next_step_6 = InlineKeyboardButton('Продолжай!', callback_data="next_6")
-next_step_7 = InlineKeyboardButton('Дальше!', callback_data="next_7")
-next_step_8 = InlineKeyboardButton('Дальше!', callback_data="next_8")
-next_step_9 = InlineKeyboardButton('Дальше!', callback_data="next_9")
-
-# markups
-next_markup = InlineKeyboardMarkup(resize_keyboard = True).add(next_more)
-next_markup_2 = InlineKeyboardMarkup(resize_keyboard = True).add(next_step_2)
-next_markup_3 = InlineKeyboardMarkup(resize_keyboard = True).add(next_step_3)
-next_markup_4 = InlineKeyboardMarkup(resize_keyboard = True).add(next_step_4)
-next_markup_5 = InlineKeyboardMarkup(resize_keyboard = True).add(next_step_5)
-next_markup_6 = InlineKeyboardMarkup(resize_keyboard = True).add(next_step_6)
-next_markup_7 = InlineKeyboardMarkup(resize_keyboard = True).add(next_step_7)
-next_markup_8 = InlineKeyboardMarkup(resize_keyboard = True).add(next_step_8)
-next_markup_9 = InlineKeyboardMarkup(resize_keyboard = True).add(next_step_9)
